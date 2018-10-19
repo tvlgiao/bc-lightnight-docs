@@ -1,0 +1,5 @@
+<p data-remote-banner-position="lightnight-sidebar-category-banner2">
+<a href="{{item1_button_url}}" title="{{item1_button_text}}}">
+<img src="{{item1_img}}" alt="{{item1_alt}}"/>
+</a>
+</p>

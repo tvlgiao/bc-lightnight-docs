@@ -1,0 +1,12 @@
+<div class="lightnight-section lightnight-section--banner lightnight-section--banner--banner2" data-local-banner-position="lightnight-home-banner2">
+    <div class="lightnight-banner lightnight-banner--full">
+        <div class="banner-left">
+            <div class="banner-content">
+                <h4 class="banner-title">{{banner2_title}}</h4>
+                <a href="{{banner2_button_link}}" class="button" title="{{banner2_button_text}}">{{banner2_button_text}}</a>
+            </div>
+        	<div class="banner-item">
+        		<img src="{{banner2_img_bg}}" alt="{{banner2_img_alt}}" />
+        	</div>
+        </div>
+</div>

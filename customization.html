@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Customization - BigCommerce Theme Lightnight - User Guide</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Customization";
+    var mkdocs_page_input_path = "customization.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-241859-16', 'tvlgiao.github.io');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="icon icon-home"> BigCommerce Theme Lightnight - User Guide</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="index.html">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="installation.html">Install the theme</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="quickstart.html">Quick Start Guide</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="customization.html">Customization</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#customization">Customization</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#read-first-customization-guideline">READ FIRST - Customization Guideline</a></li>
+        
+            <li><a class="toctree-l3" href="#headers">Headers</a></li>
+        
+            <li><a class="toctree-l3" href="#footers">Footers</a></li>
+        
+            <li><a class="toctree-l3" href="#homepage-main-carousel">Homepage Main Carousel</a></li>
+        
+            <li><a class="toctree-l3" href="#homepage-product-by-category">Homepage Product by Category</a></li>
+        
+            <li><a class="toctree-l3" href="#homepage-banners">Homepage Banners</a></li>
+        
+            <li><a class="toctree-l3" href="#instagram-photos-feed">Instagram Photos Feed</a></li>
+        
+            <li><a class="toctree-l3" href="#sidebar-new-products-banners-facebook">Sidebar - New Products, Banners &amp; Facebook</a></li>
+        
+            <li><a class="toctree-l3" href="#product-page-settings">Product Page Settings</a></li>
+        
+            <li><a class="toctree-l3" href="#infinite-product-loading">Infinite product loading</a></li>
+        
+            <li><a class="toctree-l3" href="#product-card-color-swatches">Product Card &amp; Color Swatches</a></li>
+        
+            <li><a class="toctree-l3" href="#bottom-bar-on-mobile">Bottom bar on mobile</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="faqs.html">FAQs</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="support.html">Help & Support</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">BigCommerce Theme Lightnight - User Guide</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Customization</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <div ng-app="app">
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_home_banner1_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_home_banner1_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_home_banner1_modal_label">Code Generator: Homepage 5 Banners</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_home_banner1_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                      Homepage banner 1
+                  </h4>
+                </div>
+                <div class="panel-body">
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_img_bg">Background Image URL:</label>
+                    <input ng-model="img_bg" type="text" class="form-control" id="chiara_home_banner1_img_bg" ng-init="img_bg='/product_images/uploaded_images/banner1.gif'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_alt">Image Alt:</label>
+                    <input ng-model="img_alt" type="text" class="form-control" id="chiara_home_banner1_alt" ng-init="img_alt='Hompage banner 1'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_btn1_url">Button 1 Url:</label>
+                    <input ng-model="btn1_url" type="text" class="form-control" id="chiara_home_banner1_btn1_url" ng-init="btn1_url='#'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_btn1_text">Button 1 Text:</label>
+                    <input ng-model="btn1_text" type="text" class="form-control" id="chiara_home_banner1_btn1_text" ng-init="btn1_text='Shop new'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_btn2_url">Button 2 Url:</label>
+                    <input ng-model="btn2_url" type="text" class="form-control" id="chiara_home_banner1_btn2_url" ng-init="btn2_url='#'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_btn2_text">Button 2 Text:</label>
+                    <input ng-model="btn2_text" type="text" class="form-control" id="chiara_home_banner1_btn2_text" ng-init="btn2_text='Shop Sale'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_btn3_url">Button 3 Url:</label>
+                    <input ng-model="btn3_url" type="text" class="form-control" id="chiara_home_banner1_btn3_url" ng-init="btn3_url='#'">
+                  </div>
+                  <div class="form-group">
+                    <label for="chiara_home_banner1_btn3_text">Button 3 Text:</label>
+                    <input ng-model="btn3_text" type="text" class="form-control" id="chiara_home_banner1_btn3_text" ng-init="btn3_text='Shop Extra'">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_home_banner1.txt'" compile="true" id="chiara_home_banner1_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_home_banner1_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_home_banner1_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_home_banner2_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_home_banner2_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_home_banner2_modal_label">Code Generator: Homepage Fullwidth Banner</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_home_banner2_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_home_banner2_heading">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#chiara_home_banner2_accordion" href="#chiara_home_banner2_collapse" aria-expanded="true" aria-controls="chiara_home_banner2_collapse">
+                      Banner 2
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_home_banner2_collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="chiara_home_banner2_heading">
+                  <div class="panel-body">
+                  <div class="form-group">
+                      <label for="chiara_home_banner2_title">Banner title</label>
+                      <input ng-model="banner2_title" type="text" class="form-control" id="chiara_home_banner2_title" ng-init="banner2_title='Comfortable, confident, sexy.'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner2_img_bg">Background Image URL:</label>
+                      <input ng-model="banner2_img_bg" type="text" class="form-control" id="chiara_home_banner2_img_bg" ng-init="banner2_img_bg='/product_images/uploaded_images/banner2.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner2_alt">Background Image Alt:</label>
+                      <input ng-model="banner2_img_alt" type="text" class="form-control" id="chiara_home_banner2_alt" ng-init="banner2_img_alt='banner2.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner2_button_link">Button link URL:</label>
+                      <input ng-model="banner2_button_link" type="text" class="form-control" id="chiara_home_banner2_button_link" ng-init="banner2_button_link='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner2_button_text">Button text:</label>
+                      <input ng-model="banner2_button_text" type="text" class="form-control" id="chiara_home_banner2_button_text" ng-init="banner2_button_text='Shop sale'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_home_banner2.txt'" compile="true" id="chiara_home_banner2_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_home_banner2_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_home_banner2_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_home_banner3_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_home_banner3_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_home_banner3_modal_label">Code Generator: Images Carousel</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_home_banner3_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_home_banner3_heading">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chiara_home_banner3_accordion" href="#chiara_home_banner3_collapse" aria-expanded="false" aria-controls="chiara_home_banner3_collapse">
+                      Banner image 3
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_home_banner3_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="chiara_home_banner3_item8_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_left_url">Banner left image URL:</label>
+                      <input ng-model="banner3_left_url" type="text" class="form-control" id="chiara_home_banner3_left_url"
+                      ng-init="banner3_left_url='/product_images/uploaded_images/banner1.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_left_alt">Banner left image Alt:</label>
+                      <input ng-model="banner3_left_alt" type="text" class="form-control" id="chiara_home_banner3_left_alt"
+                      ng-init="banner3_left_alt='banner1.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_right_url">Banner right image URL:</label>
+                      <input ng-model="banner3_right_url" type="text" class="form-control" id="chiara_home_banner3_right_url"
+                      ng-init="banner3_right_url='/product_images/uploaded_images/banner4.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_right_alt">Banner right image Alt:</label>
+                      <input ng-model="banner3_right_alt" type="text" class="form-control" id="chiara_home_banner3_right_alt"
+                      ng-init="banner3_right_alt='banner4.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_title">Banner 3 left title:</label>
+                      <input ng-model="banner3_right_title" type="text" class="form-control" id="chiara_home_banner3_title" ng-init="banner3_right_title='Buy 1 Get 1'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_button_url">Banner 3 button URL:</label>
+                      <input ng-model="banner3_button_url" type="text" class="form-control" id="chiara_home_banner3_button_url"
+                      ng-init="banner3_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner3_button_text">Banner 3 button text:</label>
+                      <input ng-model="banner3_button_text" type="text" class="form-control" id="chiara_home_banner3_button_text"
+                      ng-init="banner3_button_text='See full collection'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_home_banner3.txt'" compile="true" id="chiara_home_banner3_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_home_banner3_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_home_banner3_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_home_banner4_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_home_banner4_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_home_banner3_modal_label">Homepage banner 4</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="chiara_home_banner4_heading">Title Heading:</label>
+              <input ng-model="banner4_heading" type="text" class="form-control" id="chiara_home_banner4_heading" ng-init="banner4_heading='more to love'">
+            </div>
+            <div class="panel-group" id="chiara_home_banner3_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_home_banner4_item1_heading">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chiara_home_banner3_accordion" href="#chiara_home_banner4_item1_collapse" aria-expanded="false" aria-controls="chiara_home_banner4_item1_collapse">
+                      Item1
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_home_banner4_item1_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="chiara_home_banner4_item1_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item1_img">Image URL:</label>
+                      <input ng-model="banner4_item1_img" type="text" class="form-control" id="chiara_home_banner4_item1_img" ng-init="banner4_item1_img='/product_images/uploaded_images/blog1.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item1_alt">Image Alt:</label>
+                      <input ng-model="banner4_item1_alt" type="text" class="form-control" id="chiara_home_banner4_item1_alt"
+                      ng-init="banner4_item1_alt='blog1.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item1_title">Banner title:</label>
+                      <input ng-model="banner4_item1_title" type="text" class="form-control" id="chiara_home_banner4_item1_title"
+                      ng-init="banner4_item1_title='Whats the occasion?'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item1_desc">Button URL:</label>
+                      <input ng-model="banner4_item1_desc" type="text" class="form-control" id="chiara_home_banner4_item1_desc"
+                      ng-init="banner4_item1_desc='All you gotta do now is RSVP'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item1_button_url">Button URL:</label>
+                      <input ng-model="banner4_item1_button_url" type="text" class="form-control" id="chiara_home_banner4_item1_button_url"
+                      ng-init="banner4_item1_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item1_button_text">Button text:</label>
+                      <input ng-model="banner4_item1_button_text" type="text" class="form-control" id="chiara_home_banner4_item1_button_text"
+                      ng-init="banner4_item1_button_text='#'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_home_banner4_item2_heading">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chiara_home_banner3_accordion" href="#chiara_home_banner4_item2_collapse" aria-expanded="false" aria-controls="chiara_home_banner4_item2_collapse">
+                      Item2
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_home_banner4_item2_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="chiara_home_banner4_item2_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item2_img">Image URL:</label>
+                      <input ng-model="banner4_item2_img" type="text" class="form-control" id="chiara_home_banner4_item2_img" ng-init="banner4_item2_img='/product_images/uploaded_images/blog2.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item2_alt">Image Alt:</label>
+                      <input ng-model="banner4_item2_alt" type="text" class="form-control" id="chiara_home_banner4_item2_alt"
+                      ng-init="banner4_item2_alt='blog2.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item2_title">Banner title:</label>
+                      <input ng-model="banner4_item2_title" type="text" class="form-control" id="chiara_home_banner4_item2_title"
+                      ng-init="banner4_item2_title='High-impact crop tops'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item2_desc">Button URL:</label>
+                      <input ng-model="banner4_item2_desc" type="text" class="form-control" id="chiara_home_banner4_item2_desc"
+                      ng-init="banner4_item2_desc='All you gotta do now is RSVP'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item2_button_url">Button URL:</label>
+                      <input ng-model="banner4_item2_button_url" type="text" class="form-control" id="chiara_home_banner4_item2_button_url"
+                      ng-init="banner4_item2_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item2_button_text">Button text:</label>
+                      <input ng-model="banner4_item2_button_text" type="text" class="form-control" id="chiara_home_banner4_item2_button_text"
+                      ng-init="banner4_item2_button_text='View the feature'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_home_banner4_item3_heading">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#chiara_home_banner3_accordion" href="#chiara_home_banner4_item3_collapse" aria-expanded="false" aria-controls="chiara_home_banner4_item3_collapse">
+                      item3
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_home_banner4_item3_collapse" class="panel-collapse collapse" role="tabpanel" aria-labelledby="chiara_home_banner4_item3_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item3_img">Image URL:</label>
+                      <input ng-model="banner4_item3_img" type="text" class="form-control" id="chiara_home_banner4_item3_img" ng-init="banner4_item3_img='/product_images/uploaded_images/blog3.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item3_alt">Image Alt:</label>
+                      <input ng-model="banner4_item3_alt" type="text" class="form-control" id="chiara_home_banner4_item3_alt"
+                      ng-init="banner4_item3_alt='blog2.jpg'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item3_title">Banner title:</label>
+                      <input ng-model="banner4_item3_title" type="text" class="form-control" id="chiara_home_banner4_item3_title"
+                      ng-init="banner4_item3_title='Get yourself in peak'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item3_desc">Button URL:</label>
+                      <input ng-model="banner4_item3_desc" type="text" class="form-control" id="chiara_home_banner4_item3_desc"
+                      ng-init="banner4_item3_desc='Your summer workouts start now'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item3_button_url">Button URL:</label>
+                      <input ng-model="banner4_item3_button_url" type="text" class="form-control" id="chiara_home_banner4_item3_button_url"
+                      ng-init="banner4_item3_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_home_banner4_item3_button_text">Button text:</label>
+                      <input ng-model="banner4_item3_button_text" type="text" class="form-control" id="chiara_home_banner4_item3_button_text"
+                      ng-init="banner4_item3_button_text='Shop summer 2018'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_home_banner4.txt'" compile="true" id="chiara_home_banner3_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_home_banner3_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_home_banner4_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_sidebar_category_banner1_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_sidebar_category_banner1_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_sidebar_category_banner1_modal_label">Code Generator: Sidebar Category Banner 1</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_sidebar_category_banner1_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_sidebar_category_banner1_item1_heading">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#chiara_sidebar_category_banner1_accordion" href="#chiara_sidebar_category_banner1_item1_collapse" aria-expanded="true" aria-controls="chiara_sidebar_category_banner1_item1_collapse">
+                      Image
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_sidebar_category_banner1_item1_collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="chiara_sidebar_category_banner1_item1_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner1_item1_img">Image URL:</label>
+                      <input ng-model="item1_img" type="text" class="form-control" id="chiara_sidebar_category_banner1_item1_img" ng-init="item1_img='/product_images/uploaded_images/banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner1_item1_alt">Image Alt:</label>
+                      <input ng-model="item1_alt" type="text" class="form-control" id="chiara_sidebar_category_banner1_item1_alt"
+                      ng-init="item1_alt='banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner1_item1_button_url">Button url:</label>
+                      <input ng-model="item1_button_url" type="text" class="form-control" id="chiara_sidebar_category_banner1_item1_button_url"
+                      ng-init="item1_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner1_item1_button_text">Button url:</label>
+                      <input ng-model="item1_button_text" type="text" class="form-control" id="chiara_sidebar_category_banner1_item1_button_text"
+                      ng-init="item1_button_text='banner3.gif'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_sidebar_category_banner1.txt'" compile="true" id="chiara_sidebar_category_banner1_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_sidebar_category_banner1_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_sidebar_category_banner1_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_sidebar_category_banner2_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_sidebar_category_banner2_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_sidebar_category_banner2_modal_label">Code Generator: Sidebar Category Banner 2</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_sidebar_category_banner2_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_sidebar_category_banner2_item1_heading">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#chiara_sidebar_category_banner2_accordion" href="#chiara_sidebar_category_banner2_item1_collapse" aria-expanded="true" aria-controls="chiara_sidebar_category_banner2_item1_collapse">
+                      Image
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_sidebar_category_banner2_item1_collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="chiara_sidebar_category_banner2_item1_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner2_item1_img">Image URL:</label>
+                      <input ng-model="item1_img" type="text" class="form-control" id="chiara_sidebar_category_banner2_item1_img" ng-init="item1_img='/product_images/uploaded_images/banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner2_item1_alt">Image Alt:</label>
+                      <input ng-model="item1_alt" type="text" class="form-control" id="chiara_sidebar_category_banner2_item1_alt"
+                      ng-init="item1_alt='banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner2_item1_button_url">Button url:</label>
+                      <input ng-model="item1_button_url" type="text" class="form-control" id="chiara_sidebar_category_banner2_item1_button_url"
+                      ng-init="item1_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_category_banner2_item1_button_text">Button url:</label>
+                      <input ng-model="item1_button_text" type="text" class="form-control" id="chiara_sidebar_category_banner2_item1_button_text"
+                      ng-init="item1_button_text='banner3.gif'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_sidebar_category_banner2.txt'" compile="true" id="chiara_sidebar_category_banner2_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_sidebar_category_banner2_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_sidebar_category_banner2_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_sidebar_brand_banner1_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_sidebar_brand_banner1_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_sidebar_brand_banner1_modal_label">Code Generator: Sidebar Brand Banner 1</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_sidebar_brand_banner1_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_sidebar_brand_banner1_item1_heading">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#chiara_sidebar_brand_banner1_accordion" href="#chiara_sidebar_brand_banner1_item1_collapse" aria-expanded="true" aria-controls="chiara_sidebar_brand_banner1_item1_collapse">
+                      Image
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_sidebar_brand_banner1_item1_collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="chiara_sidebar_brand_banner1_item1_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner1_item1_img">Image URL:</label>
+                      <input ng-model="item1_img" type="text" class="form-control" id="chiara_sidebar_brand_banner1_item1_img" ng-init="item1_img='/product_images/uploaded_images/banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner1_item1_alt">Image Alt:</label>
+                      <input ng-model="item1_alt" type="text" class="form-control" id="chiara_sidebar_brand_banner1_item1_alt"
+                      ng-init="item1_alt='banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner1_item1_button_url">Button url:</label>
+                      <input ng-model="item1_button_url" type="text" class="form-control" id="chiara_sidebar_brand_banner1_item1_button_url"
+                      ng-init="item1_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner1_item1_button_text">Button url:</label>
+                      <input ng-model="item1_button_text" type="text" class="form-control" id="chiara_sidebar_brand_banner1_item1_button_text"
+                      ng-init="item1_button_text='banner3.gif'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_sidebar_brand_banner1.txt'" compile="true" id="chiara_sidebar_brand_banner1_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_sidebar_brand_banner1_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_sidebar_brand_banner1_modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="chiara_sidebar_brand_banner2_modal" tabindex="-1" role="dialog" aria-labelledby="chiara_sidebar_brand_banner2_modal_label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="chiara_sidebar_brand_banner2_modal_label">Code Generator: Sidebar Brand Banner 2</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="panel-group" id="chiara_sidebar_brand_banner2_accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="chiara_sidebar_brand_banner2_item1_heading">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#chiara_sidebar_brand_banner2_accordion" href="#chiara_sidebar_brand_banner2_item1_collapse" aria-expanded="true" aria-controls="chiara_sidebar_brand_banner2_item1_collapse">
+                      Image
+                    </a>
+                  </h4>
+                </div>
+                <div id="chiara_sidebar_brand_banner2_item1_collapse" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="chiara_sidebar_brand_banner2_item1_heading">
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner2_item1_img">Image URL:</label>
+                      <input ng-model="item1_img" type="text" class="form-control" id="chiara_sidebar_brand_banner2_item1_img" ng-init="item1_img='/product_images/uploaded_images/banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner2_item1_alt">Image Alt:</label>
+                      <input ng-model="item1_alt" type="text" class="form-control" id="chiara_sidebar_brand_banner2_item1_alt"
+                      ng-init="item1_alt='banner3.gif'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner2_item1_button_url">Button url:</label>
+                      <input ng-model="item1_button_url" type="text" class="form-control" id="chiara_sidebar_brand_banner2_item1_button_url"
+                      ng-init="item1_button_url='#'">
+                    </div>
+                    <div class="form-group">
+                      <label for="chiara_sidebar_brand_banner2_item1_button_text">Button url:</label>
+                      <input ng-model="item1_button_text" type="text" class="form-control" id="chiara_sidebar_brand_banner2_item1_button_text"
+                      ng-init="item1_button_text='banner3.gif'">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div hljs include="'/samples/chiara_sidebar_brand_banner2.txt'" compile="true" id="chiara_sidebar_brand_banner2_code" class="highlight-code"></div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-clipboard-target="#chiara_sidebar_brand_banner2_code">Copy Code</button>
+        </div>
+      </div>
+    </div>
+  </div><!-- modal #chiara_sidebar_brand_banner2_modal -->
+</div>
+
+<h1 id="customization">Customization<a class="headerlink" href="#customization" title="Permanent link">&para;</a></h1>
+<h2 id="read-first-customization-guideline">READ FIRST - Customization Guideline<a class="headerlink" href="#read-first-customization-guideline" title="Permanent link">&para;</a></h2>
+<p><strong>Contact for Support:</strong> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#112;&#97;&#112;&#97;&#116;&#104;&#101;&#109;&#101;&#115;&#46;&#99;&#111;&#109;">&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#112;&#97;&#112;&#97;&#116;&#104;&#101;&#109;&#101;&#115;&#46;&#99;&#111;&#109;</a></p>
+<h3 id="how-to-add-your-own-css-scss">How to add your own CSS / SCSS:<a class="headerlink" href="#how-to-add-your-own-css-scss" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Option 1:</strong> Edit file <code>assets/scss/_lightnight-custom.scss</code></li>
+<li><strong>Option 2:</strong> Add custom CSS  in <code>&lt;style&gt;...&lt;/style&gt;</code> into <strong>Storefront</strong> &gt; <strong>Footer Scripts</strong>.</li>
+</ul>
+<h3 id="how-to-add-your-own-javascript">How to add your own Javascript:<a class="headerlink" href="#how-to-add-your-own-javascript" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Option 1:</strong> Add custom JS in <code>&lt;script&gt;...&lt;/script&gt;</code> into <strong>Storefront</strong> &gt; <strong>Footer Scripts</strong>.</li>
+<li><strong>Option 2:</strong> Add custom JS into <strong>Storefront</strong> &gt; <strong>Scripts Manager</strong>.</li>
+</ul>
+<h3 id="edit-html">Edit HTML:<a class="headerlink" href="#edit-html" title="Permanent link">&para;</a></h3>
+<p>ONLY edit file <code>templates/lightnight-custom.html</code></p>
+<hr />
+<p><em><strong>WARNING: EDIT OTHER FILES WILL PREVENT UPGRADING THE THEME IN THE FUTURE!</strong></em></p>
+<h2 id="headers">Headers<a class="headerlink" href="#headers" title="Permanent link">&para;</a></h2>
+<p><img alt="Headers" src="img/headers.png" /></p>
+<p>Theme supports 2 header with logo position left or right. It is configured in <strong>Theme Editor</strong> &gt; <strong>Header &amp; Footer</strong> &gt; <strong>Logo position</strong>.</p>
+<p>You can configure Header style, logo size, colors, fonts in <strong>Theme Editor</strong> &gt; <strong>Header &amp; Footer</strong>.</p>
+<h3 id="mega-menu-vs-standard-menu">Mega Menu vs. Standard Menu<a class="headerlink" href="#mega-menu-vs-standard-menu" title="Permanent link">&para;</a></h3>
+<p><img alt="Menus" src="img/menus.png" /></p>
+<p>Theme supports both Mega Menu and Standard Menu. You can configure in <strong>Theme Editor</strong> &gt; <strong>Header &amp; Footer</strong> &gt; <strong>Main Navigation</strong> &gt; <strong>Navigation design</strong>.</p>
+<p>The menu is automatically popuplated from your product categories and web pages (in <strong>Storefront</strong> &gt; <strong>Web Pages</strong>). You can hide all web pages on this menu by tick on the option <strong>Hide web pages in main navigation</strong> in <strong>Theme Editor</strong> &gt; <strong>Header &amp; Footer</strong>.</p>
+<h3 id="top-banner">Top Banner<a class="headerlink" href="#top-banner" title="Permanent link">&para;</a></h3>
+<p><img alt="top banner" src="img/top-banner.png" /></p>
+<p>You can edit the top banner on the homepage, category pages, product pages in <strong>Marketing</strong> &gt; <strong>Banner Manager</strong>.</p>
+<h2 id="footers">Footers<a class="headerlink" href="#footers" title="Permanent link">&para;</a></h2>
+<p><img alt="Footers" src="img/footers.png" /></p>
+<p>Configure the footer in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> section. </p>
+<ul>
+<li>You can change colors.</li>
+<li>Show/hide web page links, categories, brands.</li>
+<li>Add custom links in maximum 4 columns.</li>
+<li>Newsletter form support top or right position of the footer.</li>
+<li>Change colors of the copyright section.</li>
+<li>Show/hide copyright links.</li>
+<li>Show/hide payment icons.</li>
+</ul>
+<h2 id="homepage-main-carousel">Homepage Main Carousel<a class="headerlink" href="#homepage-main-carousel" title="Permanent link">&para;</a></h2>
+<p><img alt="Main carousel" src="img/main-carousel.png" /></p>
+<p>Main carousel displays on the home page can be input in <strong>Storefront</strong> &gt; <strong>Home Page Carousel</strong>.</p>
+<p>You can configure carousel settings in <strong>Theme Editor</strong> &gt; <strong>Home Page</strong> &gt; <strong>Carousel</strong> section. Here you can turn on/off this carousel, configure colors, content position and so on.</p>
+<h2 id="homepage-product-by-category">Homepage Product by Category<a class="headerlink" href="#homepage-product-by-category" title="Permanent link">&para;</a></h2>
+<p><img alt="Main carousel" src="img/homepage-product-tabs.png" /></p>
+<p>Edit banner in <strong>Theme Editor</strong> &gt; <strong>Homepage</strong> &gt; <strong>Product by Category</strong>.</p>
+<ul>
+<li>You can change limit product, category slug and button bottom to display.
+<img alt="Main carousel" src="img/homepage-product-tabs-edit.png" /></li>
+</ul>
+<h2 id="homepage-banners">Homepage Banners<a class="headerlink" href="#homepage-banners" title="Permanent link">&para;</a></h2>
+<h3 id="there-are-4-section-banners-in-homepage">There are 4 Section Banners in homepage<a class="headerlink" href="#there-are-4-section-banners-in-homepage" title="Permanent link">&para;</a></h3>
+<p><img alt="homepage 3 banners" src="img/homepage-5-banners.png" /></p>
+<p>To display the banner, create a new banner in <strong>Marketing</strong> &gt; <strong>Banners</strong>:</p>
+<ul>
+<li><strong>Banner Name</strong>: <code>banner name</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<h3 id="source-code-for-banner-1">Source code for banner 1<a class="headerlink" href="#source-code-for-banner-1" title="Permanent link">&para;</a></h3>
+<p><img alt="homepage 1 banners" src="img/banners-1.png" /></p>
+<pre><code class="html">&lt;div class=&quot;lightnight-section lightnight-section--banner lightnight-section--banner--banner1&quot; data-local-banner-position=&quot;lightnight-home-banner1&quot;&gt;
+  &lt;div class=&quot;lightnight-banner lightnight-banner--full&quot;&gt;
+    &lt;div class=&quot;banner-left&quot;&gt;
+      &lt;div class=&quot;banner-content&quot;&gt;
+        &lt;ul class=&quot;banner-action-inline-list&quot;&gt;
+          &lt;li&gt;&lt;a title=&quot;Shop new&quot; class=&quot;button&quot; href=&quot;#&quot;&gt;Shop new&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a title=&quot;Shop Sale&quot; class=&quot;button&quot; href=&quot;#&quot;&gt;Shop Sale&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a title=&quot;Shop Extra&quot; class=&quot;button&quot; href=&quot;#&quot;&gt;Shop Extra&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;banner-item&quot;&gt;
+      &lt;img src=&quot;/product_images/uploaded_images/banner1.gif&quot; alt=&quot;banner2.gif&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_home_banner1_modal">
+  Launch Banner Code Generator
+</button></p>
+<h3 id="source-code-for-banner-2">Source code for banner 2<a class="headerlink" href="#source-code-for-banner-2" title="Permanent link">&para;</a></h3>
+<p><img alt="homepage 1 banners" src="img/banners-2.png" /></p>
+<pre><code class="html">&lt;div class=&quot;lightnight-section lightnight-section--banner lightnight-section--banner--banner2&quot; data-local-banner-position=&quot;lightnight-home-banner2&quot;&gt;
+  &lt;div class=&quot;lightnight-banner lightnight-banner--full&quot;&gt;
+    &lt;div class=&quot;banner-left&quot;&gt;
+      &lt;div class=&quot;banner-content&quot;&gt;
+          &lt;h4 class=&quot;banner-title&quot;&gt;Comfortable, confident, sexy.&lt;/h4&gt;
+          &lt;a href=&quot;#&quot; class=&quot;button&quot; title=&quot;Shop sale&quot;&gt;Shop sale&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;banner-item&quot;&gt;
+      &lt;img src=&quot;/product_images/uploaded_images/banner2.gif&quot; alt=&quot;banner2.gif&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_home_banner2_modal">
+  Launch Banner Code Generator
+</button></p>
+<h3 id="source-code-for-banner-3">Source code for banner 3<a class="headerlink" href="#source-code-for-banner-3" title="Permanent link">&para;</a></h3>
+<p><img alt="homepage 1 banners" src="img/banners-3.png" /></p>
+<pre><code class="html">&lt;div class=&quot;lightnight-section lightnight-section--banner lightnight-section--banner--banner3&quot; data-local-banner-position=&quot;lightnight-home-banner3&quot;&gt;
+  &lt;div class=&quot;lightnight-banner lightnight-banner--full&quot;&gt;
+    &lt;div class=&quot;banner-left&quot;&gt;
+      &lt;div class=&quot;banner-item&quot;&gt;
+        &lt;img title=&quot;blog2.jpg&quot; src=&quot;/product_images/uploaded_images/banner1.jpg&quot; alt=&quot;banner1.jpg&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;banner-right&quot;&gt;
+      &lt;div class=&quot;banner-content&quot;&gt;
+          &lt;h4 class=&quot;banner-title&quot;&gt;Buy 1 Get 1 &lt;/h4&gt;
+          &lt;a href=&quot;#&quot; class=&quot;button&quot; title=&quot;See full collection&quot;&gt;See full collection&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;banner-item&quot;&gt;
+          &lt;img title=&quot;blog4.jpg&quot; src=&quot;/product_images/uploaded_images/banner4.jpg&quot; alt=&quot;banner4.jpg&quot; /&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_home_banner3_modal">
+  Launch Banner Code Generator
+</button></p>
+<h3 id="source-code-for-banner-4">Source code for banner 4<a class="headerlink" href="#source-code-for-banner-4" title="Permanent link">&para;</a></h3>
+<p><img alt="homepage 1 banners" src="img/banners-4.png" /></p>
+<pre><code class="html">&lt;div class=&quot;lightnight-section lightnight-section--banner lightnight-section--banner--banner4&quot; data-local-banner-position=&quot;lightnight-home-banner4&quot;&gt;
+  &lt;div class=&quot;lightnight-banner lightnight-banner--boxed&quot;&gt;
+    &lt;h2 class=&quot;page-heading&quot;&gt;more to love&lt;/h2&gt;
+    &lt;div class=&quot;banner-list&quot;&gt;
+      &lt;div class=&quot;banner-item&quot;&gt;
+            &lt;div class=&quot;banner-image&quot;&gt;
+                &lt;a href=&quot;#&quot; title=&quot;View the lookbook&quot;&gt;
+              &lt;img title=&quot;blog1.jpg&quot; src=&quot;/product_images/uploaded_images/blog1.jpg&quot; alt=&quot;blog1.jpg&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;h4 class=&quot;banner-title&quot;&gt;What's the occasion?&lt;/h4&gt;
+    &lt;p class=&quot;banner-desc&quot;&gt;All you gotta do now is RSVP&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;button&quot; title=&quot;View the lookbook&quot;&gt;View the lookbook&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;banner-item&quot;&gt;
+            &lt;div class=&quot;banner-image&quot;&gt;
+                &lt;a href=&quot;#&quot; title=&quot;View the feature&quot;&gt;
+              &lt;img title=&quot;blog2.jpg&quot; src=&quot;/product_images/uploaded_images/blog2.jpg&quot; alt=&quot;blog2.jpg&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;h4 class=&quot;banner-title&quot;&gt;High-impact crop tops&lt;/h4&gt;
+    &lt;p class=&quot;banner-desc&quot;&gt;Swimwear season is officially here&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;button&quot; title=&quot;View the feature&quot;&gt;View the feature&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;banner-item&quot;&gt;
+            &lt;div class=&quot;banner-image&quot;&gt;
+                &lt;a href=&quot;#&quot; title=&quot;View the feature&quot;&gt;
+                &lt;img title=&quot;blog3.jpg&quot; src=&quot;/product_images/uploaded_images/blog3.jpg&quot; alt=&quot;blog3.jpg&quot; /&gt;
+                &lt;/a&gt;
+            &lt;/div&gt;
+        &lt;h4 class=&quot;banner-title&quot;&gt;Get yourself in peak&lt;/h4&gt;
+    &lt;p class=&quot;banner-desc&quot;&gt;Your summer workouts start now&lt;/p&gt;
+    &lt;a href=&quot;#&quot; class=&quot;button&quot; title=&quot;Shop summer 2018&quot;&gt;Shop summer 2018&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_home_banner4_modal">
+  Launch Banner Code Generator
+</button></p>
+<h2 id="instagram-photos-feed">Instagram Photos Feed<a class="headerlink" href="#instagram-photos-feed" title="Permanent link">&para;</a></h2>
+<p><img alt="homepage instagram" src="img/homepage-instagram.png" /></p>
+<p>Configure Instagram section on the home page in <strong>Theme Editor</strong> &gt; <strong>Home Page</strong> &gt; <strong>Instagram</strong>:</p>
+<ul>
+<li><strong>Token Access</strong>: Use this tool to generate your Instagram token access code: <a href="https://bit.ly/2rpaWxU">https://bit.ly/2rpaWxU</a>.</li>
+<li><strong>Number of photos</strong> to display.</li>
+<li><strong>Columns</strong> (or photos per row).</li>
+<li><strong>Type</strong>: <code>Boxed</code> - display like Furniture demo. <code>Fullwidth</code> - display like Fashion demo.</li>
+<li><strong>Heading</strong>.</li>
+<li><strong>Subheading</strong>.</li>
+</ul>
+<h2 id="sidebar-new-products-banners-facebook">Sidebar - New Products, Banners &amp; Facebook<a class="headerlink" href="#sidebar-new-products-banners-facebook" title="Permanent link">&para;</a></h2>
+<h3 id="custom-banners-on-the-sidebar">Custom banners on the sidebar<a class="headerlink" href="#custom-banners-on-the-sidebar" title="Permanent link">&para;</a></h3>
+<p>Theme support custom banners display on the sidebar for category pages and brand pages.</p>
+<p>To enable these banners, open <strong>Theme Editor</strong> &gt; <strong>Sidebar</strong>, tick on these options:</p>
+<ul>
+<li><strong>Show banner #1 on category pages</strong></li>
+<li><strong>Show banner #2 on category pages</strong></li>
+<li><strong>Show banner #1 on brand pages</strong></li>
+<li><strong>Show banner #2 on brand pages</strong></li>
+</ul>
+<p>Create a new banner in <strong>Marketing</strong> &gt; <strong>Banners</strong>:</p>
+<h4 id="banner-1-on-category-pages">Banner 1 on category pages<a class="headerlink" href="#banner-1-on-category-pages" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on category pages (lightnight-sidebar-category-banner1)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;lightnight-sidebar-category-banner1&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;__mce_add_custom__&quot; title=&quot;banner3.gif&quot; src=&quot;https://cdn11.bigcommerce.com/s-xz87wpfnzs/product_images/uploaded_images/banner3.gif&quot; alt=&quot;banner3.gif&quot; width=&quot;250&quot; height=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_category_banner1_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Home Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h4 id="banner-2-on-category-pages">Banner 2 on category pages<a class="headerlink" href="#banner-2-on-category-pages" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on category pages (lightnight-sidebar-category-banner2)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;lightnight-sidebar-category-banner2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;__mce_add_custom__&quot; title=&quot;banner3.gif&quot; src=&quot;https://cdn11.bigcommerce.com/s-xz87wpfnzs/product_images/uploaded_images/banner3.gif&quot; alt=&quot;banner3.gif&quot; width=&quot;250&quot; height=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_category_banner2_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Home Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h4 id="banner-1-on-brand-pages">Banner 1 on brand pages<a class="headerlink" href="#banner-1-on-brand-pages" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on brand pages (lightnight-sidebar-brand-banner1)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;lightnight-sidebar-brand-banner1&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;__mce_add_custom__&quot; title=&quot;banner3.gif&quot; src=&quot;https://cdn11.bigcommerce.com/s-xz87wpfnzs/product_images/uploaded_images/banner3.gif&quot; alt=&quot;banner3.gif&quot; width=&quot;250&quot; height=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_brand_banner1_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Home Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h4 id="banner-2-on-brand-pages">Banner 2 on brand pages<a class="headerlink" href="#banner-2-on-brand-pages" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Banner Name</strong>: <code>Sidebar banner on brand pages (lightnight-sidebar-brand-banner2)</code></li>
+<li><strong>Banner Content</strong>: Click on the HTML to edit HTML source.</li>
+</ul>
+<pre><code class="html">&lt;p data-remote-banner-position=&quot;lightnight-sidebar-brand-banner2&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img class=&quot;__mce_add_custom__&quot; title=&quot;banner3.gif&quot; src=&quot;https://cdn11.bigcommerce.com/s-xz87wpfnzs/product_images/uploaded_images/banner3.gif&quot; alt=&quot;banner3.gif&quot; width=&quot;250&quot; height=&quot;450&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</code></pre>
+
+<p>Or use button below to generate HTML code with your custom content:</p>
+<!-- Button trigger modal -->
+
+<p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#chiara_sidebar_brand_banner2_modal">
+  Launch Banner Code Generator
+</button></p>
+<ul>
+<li><strong>Show on Page</strong>: <code>Home Page</code></li>
+<li><strong>Location</strong>: <code>Top of Page</code></li>
+</ul>
+<h3 id="new-products">New Products<a class="headerlink" href="#new-products" title="Permanent link">&para;</a></h3>
+<p><img alt="Sidebar new products" src="img/sidebar-new-products.png" /></p>
+<p>Configure in <strong>Theme Editor</strong> &gt; <strong>Sidebar</strong>:</p>
+<ul>
+<li><strong>New products</strong>: number of products to display.</li>
+</ul>
+<h3 id="facebook-likes-chat-box">Facebook likes &amp; chat box<a class="headerlink" href="#facebook-likes-chat-box" title="Permanent link">&para;</a></h3>
+<p><img alt="sidebar facebook" src="img/sidebar-facebook.png" /></p>
+<p>Configure in <strong>Theme Editor</strong> &gt; <strong>Sidebar</strong>, input your facebook page name in <strong>Facebook page</strong> text box. If your facebook page URL is <code>https://facebook.com/papathemes</code>, input only <code>papathemes</code>. Make sure your Facebook page is public for anyone in order to display on your store.</p>
+<h2 id="product-page-settings">Product Page Settings<a class="headerlink" href="#product-page-settings" title="Permanent link">&para;</a></h2>
+<p>Configure settings for product pages in <strong>Theme Editor</strong> &gt; <strong>Products</strong>.</p>
+<h2 id="infinite-product-loading">Infinite product loading<a class="headerlink" href="#infinite-product-loading" title="Permanent link">&para;</a></h2>
+<p>Theme support infinite product loading or infinite scroll on category pages, brand pages and search results pages. It is automatically enabled by default. You can configure this option in <strong>Theme Editor</strong> &gt; <strong>Products</strong> &gt; <strong>Infinite Scroll</strong>:</p>
+<ul>
+<li><strong>Category pages</strong></li>
+<li><strong>Brands pages</strong></li>
+<li><strong>Brand pages</strong></li>
+<li><strong>Search pages</strong></li>
+</ul>
+<h2 id="product-card-color-swatches">Product Card &amp; Color Swatches<a class="headerlink" href="#product-card-color-swatches" title="Permanent link">&para;</a></h2>
+<p><img alt="product card" src="img/product-card.png" /></p>
+<p>Configure how products display on listing in <strong>Theme Editor</strong> &gt; <strong>Products</strong> &gt; <strong>Product cards</strong>:</p>
+<ul>
+<li><strong>Product title color &amp; hover color</strong>.</li>
+<li><strong>Button text color &amp; background color</strong>.</li>
+<li><strong>Show brand</strong></li>
+<li><strong>Show color swatches</strong>: To display color swatches for product options with type "Swatches".</li>
+</ul>
+<h2 id="bottom-bar-on-mobile">Bottom bar on mobile<a class="headerlink" href="#bottom-bar-on-mobile" title="Permanent link">&para;</a></h2>
+<p><img alt="mobile bottom bar" src="img/mobile-bottom-bar.png" /></p>
+<p>Configure this bottom bar in <strong>Theme Editor</strong> &gt; <strong>Footer</strong> &gt; <strong>Bottom bar on mobile</strong>:</p>
+<ul>
+<li><strong>Background color</strong></li>
+<li><strong>Text color</strong></li>
+<li><strong>Active color</strong></li>
+<li><strong>Icon size</strong></li>
+<li><strong>Font size</strong></li>
+<li><strong>Show Shop by Brands in Store panel</strong>: Display "Show by Brands" link in the menu panel when lick on the Store icon.</li>
+</ul>
+<h3 id="contact-info">Contact info<a class="headerlink" href="#contact-info" title="Permanent link">&para;</a></h3>
+<p><img alt="mobile contact info" src="img/mobile-contact-info.png" /></p>
+<p>Configure contact info to display when click the Contact icon in <strong>Theme Editor</strong> &gt; <strong>Storewide</strong> &gt; <strong>Contact info</strong>:</p>
+<ul>
+<li><strong>Email</strong></li>
+<li><strong>Phone number</strong></li>
+<li><strong>Call text</strong></li>
+<li><strong>Contact page URL</strong></li>
+<li><strong>Contact link text</strong></li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="faqs.html" class="btn btn-neutral float-right" title="FAQs">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="quickstart.html" class="btn btn-neutral" title="Quick Start Guide"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="quickstart.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="faqs.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="https://use.fontawesome.com/540034d990.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" defer></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-highlightjs/0.7.1/angular-highlightjs.js" defer></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js" defer></script>
+      <script src="js/main.js" defer></script>
+      <script src="search/main.js" defer></script>
+
+</body>
+</html>
