@@ -1,0 +1,18 @@
+<div class="lightnight-section lightnight-section--banner lightnight-section--banner--banner3" data-local-banner-position="lightnight-home-banner3">
+    <div class="lightnight-banner lightnight-banner--full">
+        <div class="banner-left">
+            <div class="banner-item">
+                <img title="{{banner3_left_alt}}" src="{{banner3_left_url}}" alt="{{banner3_left_alt}}" />
+            </div>
+        </div>
+        <div class="banner-right">
+            <div class="banner-content">
+                <h4 class="banner-title">{{banner3_right_title}}</h4>
+                <a href="{{banner3_button_url}}" class="button" title="{{banner3_button_text}}">{{banner3_button_text}}</a>
+            </div>
+            <div class="banner-item">
+                <img title="{{banner3_right_alt}}" src="{{banner3_right_url}}" alt="{{banner3_right_alt}}" />
+            </div>
+        </div>
+    </div>
+</div>
